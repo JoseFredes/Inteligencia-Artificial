@@ -15,3 +15,6 @@ cilindradamedia(X,tiene1600cc):- auto(X,tiene1600cc).
 seguridadalta(Z,tieneairbag,tieneabs):-auto(Z,tieneabs),auto(Z,tieneairbag).
 
 
+cilindradabaja(X):- auto(X,tiene1400cc).
+cilindradamedia(X):- auto(X,tiene1600cc).
+seguridadalta(Z):-auto(Z,tieneabs),auto(Z,tieneairbag).
